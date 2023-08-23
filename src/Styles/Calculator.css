@@ -1,0 +1,102 @@
+.Calculator {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffd5cc;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #fe441b, 0 4px 20px 0 #fe441b;
+    font-family: 'Arial';
+    font-weight: 600;
+    height: 80%;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.Display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffeae6;
+    border-radius: 20px;
+    font-size: 3rem;
+    height: 5rem;
+    width: 75%;
+    margin: 25px;
+    margin-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Button-row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 60px;
+    margin: 10px;
+}
+
+.Calc-button {
+    background-color: white;
+    box-shadow: 0 2px 3px 0 #ff5833;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Arial';
+    font-weight: 550;
+    font-size: 2rem;
+    flex-basis: 20%;
+}
+
+.Calc-button:hover {
+    background-color: #f2f2f2;
+}
+
+.Calc-button:active {
+    background-color: #e6e6e6;
+}
+
+.Calc-button-double {
+    background-color: white;
+    box-shadow: 0 2px 3px 0 #ff5833;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Arial';
+    font-weight: 550;
+    font-size: 2rem;
+    flex-basis: 47%;
+}
+
+.Calc-button-double:hover {
+    background-color: #f2f2f2;
+}
+
+.Calc-button-double:active {
+    background-color: #e6e6e6;
+}
+
+.Calc-button-triple {
+    background-color: white;
+    box-shadow: 0 2px 3px 0 #ff5833;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Arial';
+    font-weight: 550;
+    font-size: 2rem;
+    flex-basis: 73%;
+}
+
+.Calc-button-triple:hover {
+    background-color: #f2f2f2;
+}
+
+.Calc-button-triple:active {
+    background-color: #e6e6e6;
+}
